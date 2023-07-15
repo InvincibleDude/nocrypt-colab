@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         NoCrypt Colab QOL
-// @namespace    ncpt
+// @name         InvDude Colab QOL for NoCrypt's REremastered Colab
+// @namespace    inv_ncpt
 // @version      0.8.1
 // @description  Change custom-urls from input to textarea in my colab, and many more...
-// @author       NoCrypt
+// @author       InvDude
 // @match        https://colab.research.google.com/github/InvincibleDude/nocrypt-colab/blob/master/nocrypt_colab_REremastered.ipynb
 // @match        https://huggingface.co/*/tree/*
 // @match        https://civitai.com/*
