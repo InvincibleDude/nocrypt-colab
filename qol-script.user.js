@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         NoCrypt Colab QOL
 // @namespace    ncpt
-// @version      0.8
+// @version      0.8.1
 // @description  Change custom-urls from input to textarea in my colab, and many more...
 // @author       NoCrypt
-// @match        https://colab.research.google.com/drive/1wEa-tS10h4LlDykd87TF5zzpXIIQoCmq*
+// @match        https://colab.research.google.com/github/InvincibleDude/nocrypt-colab/blob/master/nocrypt_colab_REremastered.ipynb
 // @match        https://huggingface.co/*/tree/*
 // @match        https://civitai.com/*
 // @icon         https://ssl.gstatic.com/colaboratory-static/common/12df515217423d1c70c00f898e263cb5/img/favicon.ico
@@ -106,7 +106,7 @@
     // Add everything
     function addThemAll() {
       const paperInput = document.querySelector(
-        "colab-form > div > colab-form-input:nth-last-child(3) > div > paper-input"
+        "#formwidget-39-label + div > paper-input"
       );
 
       const textBox = paperInput.shadowRoot.querySelector(
